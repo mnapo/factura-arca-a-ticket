@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "Ticketing";
+  src: url("https://cdn.glitch.global/7512b28f-8b2c-4a3e-bb02-e10754e44fab/public%2FTicketing.ttf?v=1739215600647") format("truetype") 
+}
+
+body{
+  font-family: "Ticketing", serif;
+  font-size: 14px; /*12*/
+  margin-left: 0mm
+}
+
+table{
+  border-color: black;
+}
+
+p{
+  line-height: 3mm;
+}
+
+.billtypebox{
+  margin-left: 47%;
+  text-align: center;
+  margin-right: 47%;
+  border: 1px solid black;
+}
+
+td {
+  /*border-style:solid;
+  border-color: grey;*/
+  vertical-align: top;
+  padding-right:0;
+  margin-right:0;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+.divtable{
+  /*text-align:left;*/
+}
+
+.insidetable{
+  /*margin-left: auto;
+  margin-right: auto;*/
+  font-size: 20px; /*15*/
+}
+
+.insidetable td
+{
+    padding:0 10px 0 0; /* Only right padding*/
+}
+
+.leftcol{
+  text-align:left;
+  
+}
+
+.rightcol{
+  text-align:left;
+}
+
+@media print {
+    body{
+      align-content: flex-start;         
+    }
+}
+
+@page{
+  margin: 0mm
+}
+
+.total-fondo{
+  background-color: black;
+}
+
+.sum{
+  font-size:24px;
+  margin-left: -10px;
+  text-align: right;
+}
+
+.total{
+  font-size: 24px; /*13*/
+  text-align: right;
+}
