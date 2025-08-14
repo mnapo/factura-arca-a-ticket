@@ -17,3 +17,8 @@ Completar .env:
 <code>node server.js</code>
 Ingresar a http://localhost:80, seleccionar archivo PDF y presionar enviar.
 Esperar a que el ticket se genere e imprimimr mediante el navegador o aplicación de impresión predeterminada.
+
+## Archivado
+Esta versión ha quedado en desuso. El objetivo de esta app fue retomado por "Ticketeador":
+- https://github.com/mnapo/impresora-termica-frontend
+- https://github.com/mnapo/impresora-termica-sv
